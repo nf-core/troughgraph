@@ -10,6 +10,10 @@
 
 ## Pipeline tools
 
+- [Original Approach](https://github.com/trettelbach/IWD_graph_analysis/tree/main)
+
+  > T. Rettelbach et al. A Quantitative Graph-Based Approach to Monitoring Ice-Wedge Trough Dynamics in Polygonal Permafrost Landscapes. Remote Sensing, vol. 13, no. 16, p. 3098, Aug. 2021, doi: 10.3390/rs13163098.
+
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
   > Andrews, S. (2010). FastQC: A Quality Control Tool for High Throughput Sequence Data [Online].
