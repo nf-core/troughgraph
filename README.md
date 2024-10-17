@@ -19,20 +19,17 @@
 
 ## Introduction
 
-**nf-core/troughgraph** is a bioinformatics pipeline that ...
-
-<!-- TODO nf-core:
-   Complete this sentence with a 2-3 sentence summary of what types of data the pipeline ingests, a brief overview of the
-   major pipeline sections and the types of output it produces. You're giving an overview to someone new
-   to nf-core here, in 15-20 seconds. For an example, see https://github.com/nf-core/rnaseq/blob/master/README.md#introduction
--->
+**nf-core/troughgraph** is a earth-observation pipeline that analyses trough networks in landscapes, such as thaw-affected permafrost landscapes, using remotely sensed digital elevation models (DEMs). The pipeline characterizes the trough network using multiple properties using a graph-based approach.
 
 <!-- TODO nf-core: Include a figure that guides the user through the major workflow steps. Many nf-core
      workflows use the "tube map" design for that. See https://nf-co.re/docs/contributing/design_guidelines#examples for examples.   -->
 <!-- TODO nf-core: Fill in short bullet-pointed list of the default steps in the pipeline -->
 
-1. Read QC ([`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
-2. Present QC for raw reads ([`MultiQC`](http://multiqc.info/))
+1. Extract a graph from the DEM
+2. Extract transect for each trough
+3. Transect Analysis: Determine trough depth and width using transects
+4. Graph Analysis: Calculate graph characteristics for trough network
+3. Present QC for raw data ([`MultiQC`](http://multiqc.info/))
 
 ## Usage
 
@@ -84,7 +81,8 @@ nf-core/troughgraph was originally written by @ftschirpke.
 
 We thank the following people for their extensive assistance in the development of this pipeline:
 
-<!-- TODO nf-core: If applicable, make list of people who have also contributed -->
+- [Tabea Rettelbach](https://github.com/trettelbach)
+- [Jonathan Bader](https://github.com/jonathanbader)
 
 ## Contributions and Support
 
