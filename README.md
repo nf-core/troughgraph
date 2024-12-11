@@ -28,7 +28,7 @@
 2. Extract transect for each trough
 3. Transect Analysis: Determine trough depth and width using transects
 4. Graph Analysis: Calculate graph characteristics for trough network
-3. Present QC for raw data ([`MultiQC`](http://multiqc.info/))
+5. Present QC for raw data ([`MultiQC`](http://multiqc.info/))
 
 ## Usage
 

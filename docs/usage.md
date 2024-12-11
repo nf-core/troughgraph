@@ -30,10 +30,10 @@ aoi_19-1.tif,Another Study 2019
 aoi_19-2.tif,Another Study 2019
 ```
 
-| Column    | Description                                                                                                                                                                            |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Column | Description                                                                                         |
+| ------ | --------------------------------------------------------------------------------------------------- |
 | `dem`  | Full path to the data elevation model (DEM). File must be of TIF type and have the extension ".tif" |
-| `name` | Custom name to identify the DEM. Does not affect the functionality of the pipeline. May be empty. |
+| `name` | Custom name to identify the DEM. Does not affect the functionality of the pipeline. May be empty.   |
 
 An [example samplesheet](../assets/samplesheet.csv) has been provided with the pipeline.
 
