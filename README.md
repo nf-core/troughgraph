@@ -19,11 +19,10 @@
 
 ## Introduction
 
-**nf-core/troughgraph** is a earth-observation pipeline that analyses trough networks in landscapes, such as thaw-affected permafrost landscapes, using remotely sensed digital elevation models (DEMs). The pipeline characterizes the trough network using multiple properties using a graph-based approach.
+**nf-core/troughgraph** is an earth-observation pipeline that analyzes trough networks in landscapes, such as thaw-affected permafrost landscapes, using remotely sensed digital elevation models (DEMs). The pipeline uses a graph-based approach to characterize the trough network using multiple properties.
 
 <!-- TODO nf-core: Include a figure that guides the user through the major workflow steps. Many nf-core
      workflows use the "tube map" design for that. See https://nf-co.re/docs/contributing/design_guidelines#examples for examples.   -->
-<!-- TODO nf-core: Fill in short bullet-pointed list of the default steps in the pipeline -->
 
 1. Extract a graph from the DEM
 2. Extract transect for each trough
