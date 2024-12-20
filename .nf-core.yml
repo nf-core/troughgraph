@@ -1,7 +1,7 @@
 nf_core_version: 3.1.0
 repository_type: pipeline
 template:
-  author: "@ftschirpke"
+  author: '@ftschirpke'
   description: a quantitative assessment of the underlying permafrost landscapes and,
     per extension, of the level of permafrost thaw in the region
   force: false
