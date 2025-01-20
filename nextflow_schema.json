@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://raw.githubusercontent.com/nf-core/troughgraph/main/nextflow_schema.json",
+    "$id": "https://raw.githubusercontent.com/nf-core/troughgraph/master/nextflow_schema.json",
     "title": "nf-core/troughgraph pipeline parameters",
     "description": "a quantitative assessment of the underlying permafrost landscapes and, per extension, of the level of permafrost thaw in the region",
     "type": "object",
