@@ -2,11 +2,16 @@ nf_core_version: 3.2.0
 repository_type: pipeline
 template:
   author: "@ftschirpke"
-  description: a quantitative assessment of the underlying permafrost landscapes and,
-    per extension, of the level of permafrost thaw in the region
+  description: a quantitative assessment of the underlying permafrost landscapes and, per extension, of the level of permafrost thaw in the region
   force: false
   is_nfcore: true
   name: troughgraph
   org: nf-core
   outdir: .
   version: 1.0dev
+lint:
+  files_exist:
+    - .github/workflows/linting_comment.yml
+  files_unchanged:
+    - .github/workflows/branch.yml
+    - .github/workflows/linting.yml
